@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Androidprojet">
-        <activity android:name=".UploadParcours"></activity>
+        <activity
+            android:name=".TabbedActivity"
+            android:label="@string/title_activity_tabbed"
+            android:theme="@style/Theme.Androidprojet.NoActionBar"></activity>
+        <activity android:name=".UploadParcours" />
         <activity android:name=".RegisterActivity" />
         <activity android:name=".ParcoursActivity" />
         <activity android:name=".MainPageActivity" />
